@@ -1,4 +1,121 @@
-.button{
-    font-size: 18px;
+.logo{
+    color: rgba(0, 0, 0, 1);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
+.list-item{
+    list-style-type: none;
+    /* Убираем маркеры */
+  }
+
+.accent
+{color:rgba(33, 150, 243, 1)}
+
+.link{
+    color: rgba(33, 33, 33, 1);
+    font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+cursor: pointer;
+text-decoration: none;
+}
+.link:hover {
+color:rgba(33, 150, 243, 1) ;
+}
+.link-1 {
+    color: rgba(117, 117, 117, 1);
+    font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+cursor: pointer;
+text-decoration: none;
+}
+.link-1:hover{color:rgba(33, 150, 243, 1)}
+
+.link-2{
+    color: rgba(117, 117, 117, 1);
+    font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+cursor: pointer;
+text-decoration: none;
+}
+.link-2:hover{color:rgba(33, 150, 243, 1)}
+.box{
+    background-color: rgba(47, 48, 58, 1);
+width: 1600px;
+height: 600px;
+left: 0px;
+top: 80px;
+
+}
+.title{
+color: rgba(255, 255, 255, 1);
+position: absolute;
+width: 696px;
+height: 120px;
+left: 452px;
+top: 280px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+}
+.button {
     background-color: rgba(33, 150, 243, 1);
+    position: absolute;
+    width: 216px;
+    height: 50px;
+    left: 692px;
+    top: 430px;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 30px;
+display: flex;
+align-items: center;
+text-align: center;
+
+}
+.text-btn{
+    color: rgba(255, 255, 255, 1);
+width: 152px;
+height: 30px;
+left: 724px;
+top: 440px;
+font-style: normal;
+    font-weight: 700;
+font-size: 16px;
+line-height: 30px;
+display: flex;
+align-items: center;
+text-align: center;
+}
+.subtitle{
+    font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color:rgba(33, 33, 33, 1) ;
+}
+
+.text{
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color:rgba(117, 117, 117, 1) ;
+
 }
