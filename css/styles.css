@@ -12,6 +12,7 @@
 --box-cl:rgba(47, 48, 58, 1);
 --team-cl:rgba(245, 244, 250, 1);
 --footer-cl:rgba(47, 48, 58, 1);
+--btn-cl:rgba(33, 150, 243, 1);
 /* logo color */
 --accent-cl:rgba(33, 150, 243, 1);
 --logo-cl:rgba(0, 0, 0, 1);
@@ -163,6 +164,7 @@ color:var(--accent-cl) ;
      } 
      .link-com:hover { background:var(--accent-cl)}
      .link-com:focus{ background:var(--accent-cl)}
+
 .link-com,.link-tel{
     font-weight: 400;
     font-size: 14px;
@@ -170,3 +172,39 @@ color:var(--accent-cl) ;
     color: var(--linc-tel);
     text-decoration:none;
 }
+ 
+
+
+
+ /* portfolio*/
+ .button-portfolio{
+    text-decoration:none;
+ }
+ .btn:hover,.btn:focus{ background:var(--btn-cl)};
+ .btn{
+    background-color:var(--team-cl);
+    color:var(--main-text-cl);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    font-family: inherit;
+ }                     
+ .heading{
+    color: var(--main-text-cl);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    text-decoration:none;
+ }
+ .desc{
+    color: var(--linc-cl);
+    ont-weight: 400;
+font-size: 16px;
+line-height: 30px;
+text-decoration:none;
+ }
+
+ .lead{
+    text-decoration:none;
+ }
