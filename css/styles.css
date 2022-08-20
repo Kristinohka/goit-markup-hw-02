@@ -154,6 +154,7 @@ color:var(--accent-cl) ;
     font-size:26px;
     line-height: calc(31/26); 
     text-decoration:none;
+    font-style: normal;
 }
 .link-adress{
     font-weight: 400;
@@ -161,6 +162,7 @@ color:var(--accent-cl) ;
     line-height: 24px;
     color: var(--title-cl);
     text-decoration:none;
+    font-style: normal;
      } 
      .link-com:hover { background:var(--accent-cl)}
      .link-com:focus{ background:var(--accent-cl)}
@@ -171,6 +173,7 @@ color:var(--accent-cl) ;
     line-height: 24px;
     color: var(--linc-tel);
     text-decoration:none;
+    font-style: normal;
 }
  
 
