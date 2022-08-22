@@ -23,12 +23,10 @@
     background-color: var(--title-cl);
     font-family: var(--main-font) ;
     color:var(--main-bg-cl) ;
-    font-size: 14px;
-    letter-spacing: 0.03em;
+    
 }
 
 /* header */
-
 
 .logo{
     font-family:var(--secondary-font);
@@ -37,6 +35,7 @@
     font-size:26px;
     line-height: calc(31/26); 
     text-decoration:none;
+    letter-spacing: 0.03em;
 }
 
 .accent {
@@ -46,6 +45,11 @@
     list-style: none;
     /* Убираем маркеры */
   }
+  .header{
+    font-size: 14px;
+    line-height: calc(16/14);
+    letter-spacing: 0.02em;
+}
 
 .link{
     color: var(--main-text-cl);
@@ -53,6 +57,7 @@
     font-size: 14px;
     cursor: pointer;
     text-decoration: none;
+
 }
 
 .link:hover,
@@ -67,13 +72,14 @@ color:var(--accent-cl) ;
     letter-spacing: 0.02em;
     cursor: pointer;
     text-decoration: none;
+    line-height: calc(16/14);
 }
 .item:hover,
 .item:focus{  
      color:var(--accent-cl) ;
 }
 
-.box{
+.features{
     background-color:var(--box-cl);
 }
 .title{
@@ -81,6 +87,7 @@ color:var(--accent-cl) ;
     font-weight: 900;
     font-size: 44px;
     text-align: center;
+    line-height: calc(60/44);
     letter-spacing: 0.06em;
     text-transform: uppercase;
 }
@@ -91,13 +98,13 @@ color:var(--accent-cl) ;
     font-family: inherit;
     font-weight: 700;
     font-size: 16px;
-    line-height: 30px;
+    line-height:calc(30/16);
 }
 
 .subtitle{
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height:calc(16/14);
     text-transform: uppercase;
     color:var(--main-text-cl) ;
 }
@@ -105,7 +112,7 @@ color:var(--accent-cl) ;
 .text{
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height:calc(24/14);
     color:var(--linc-cl) ;
 }
 /* about */
@@ -203,9 +210,9 @@ color:var(--accent-cl) ;
  .desc{
     color: var(--linc-cl);
     ont-weight: 400;
-font-size: 16px;
-line-height: 30px;
-text-decoration:none;
+    font-size: 16px;
+    line-height: 30px;
+    text-decoration:none;
  }
 
  .lead{
