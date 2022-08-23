@@ -156,7 +156,9 @@ color:var(--logo-cl);
     font-weight: 700;
 }
 .team-list{}
-.team-item{}
+.team-item{
+    background-color:var(--title-cl) ;
+}
 .team-name{
     font-size: 16px;
     line-height: calc(19 / 16);
@@ -211,6 +213,7 @@ background-color:var(--footer-cl) ;
  .portfolio-button{
     cursor: pointer;}           
  .portfolio-btn{
+    font-family:var(--main-font) ;
     background-color: var(--team-cl);
     font-size: 16px;
     line-height: calc(26 / 16);
@@ -219,10 +222,11 @@ background-color:var(--footer-cl) ;
     letter-spacing: 0.03em;
     cursor: pointer;
  }
- .btn-act:hover,
- .btn-act:focus,
- .btn-act:active{
+ .portfolio-btn:hover,
+ .portfolio-btn:focus,
+ .portfolio-btn:active{
     background-color: var(--accent-cl);
+    color:var(--title-cl);
  }
  .portfolio-list{
 
